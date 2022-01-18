@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Bookings</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico"
+      rel="stylesheet"
+    />
+    <!-- poppins google font cdn link -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <!-- bootstrap 5 css cdn link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- my custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      img {
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand brandstyle" href="index.html">Jo Bookings</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="assam.html"
+                >Assam</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="karnataka.html"
+                >Karnataka</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="jammuandkashmir.html"
+                >Jammu and Kashmir</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="andhrapradesh.html"
+                >Andhra Pradhesh</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="kerala.html"
+                >Kerala</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="tamilnadu.html"
+                >Tamilnadu</a
+              >
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="booknow.html"
+                >Book Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar section -->
+
+    <div class="container mt-4">
+      <h2>Jammu and Kashmir:</h2>
+      <p>
+        <img
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFhYYGBgaHR8cHBwcGhohHB4eISEcHCMcJCEcIy4lHh4tIR4hJzgmKzAxNTU1HCU7QDs0Py40NTEBDAwMEA8QHxISHzQrJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAKgBLQMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAIDBQYBB//EADoQAAIBAgQEBAUDBAEDBQEAAAECEQAhAxIxQQQFUWEicYGRBjKhsfATwdFCUuHxFBUjYjNygpKiB//EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACMRAAICAwEAAgMBAQEAAAAAAAABAhEDEiExQVEEEyJxoWH/2gAMAwEAAhEDEQA/ANrE7VNhcNmMChsPG8V6s+GiQZq2A/B4S2VhINUXNeQYcZcmUTbLaPL+K1Wa8esUHxvCsxzKSR0ojJpg0eV8fwRw3Kkz0NC5K9IxfhlMV82JmURtE9tZiqvmfwO6gHAfPYyHIB7RAj3rrhmj4zKUH8GKKVwrRh4VwpYqQFbKT0boehqIpW6kRQRyTgUxcTI9gQYMkeLbTWhuN4B8Jyj6/caTRXDcScMSnzG5Ovp286ucb4fxsYNi5GVnAYCVM6bTI8u1ZuWsrb4NRtcMrkrV8p5Tw0thYhVmaDr4hG0jSgU+HeILf+i8DWYiY0mRarDF+GMUHMiFXCzbWRGl+1TOafEyoxa+BnOfhVEl0fKmykzB89Y1NCcr+FHdS7mE1AUgsw6i0CRp9qu+X8UH4ZmxFd1FmIUySBcedWfJMZcgCfJAy3m3Q96xeWcVVl6xZV80+EUZMNcBMrAwzsdVvJbq06QPasjzHlr4DlHF9QRow6ivVcTiIEb1V/FHKH4jADJBdDmAi7LBkA/WN4p48zTqXgpRVcPNgldy0bj8Bi4ahnwnRTuyMB7ka1GcJgAxUgHQkGD5HeurZGVA+WlkojJSyVViB8tIJU5SuhKLAhCU9UqQJTwtKwIwlSBKeEp4SlYEYSpFSnqlSKlS2MYEqz4TiMPDghMzkQSTYUJ+lRHAIhdVfQmLa30qZdQ0GNjZzaATeBT0EWot8BEkKdbnc0K5rm98NCQPU2E3Wo1wTrUmBhkmoZRKHpTFzaiHCILsKy/Mfinh0Y3zkWhbgeun+qcY2DdF83FINTVfzD4s4XBIVmJJE+EZgPWvOOZ88fGzLORCR4R22J171V5+tW4xJ2Z7YoverDAeI6Cq0OAY3o/DVgJIt2rFllngYgZtKKLVU4OMJo5cQ0hkuJOoprNA0pM0VG+PagDO89wWwjngHDxDDwPEGIN6xTcKc5VZIkwSIkDevUsVgylHA8QNj0/DVPwKIQbAlWI7WNbQyaoiUbMbi8nxgob9NiDuBP2racgxXTCRX+YD2Gwv0FWy4gAtbttQQXxE70pZHJUwjGiwPEZhFE8OZE1WKKnw8Rx/qsiwsCAQI08qzisyhhkuWknvpVkrkb0mYN0poBvCYo3F6tlcRIqkGAxPhvT0dlaDtRQFu5B8JAI7gEGgOd8ImLhMjrZQWWNiAYIp6425FhQvPOWniFXLiMi/1KJhriJExa/0px9XRPw83VLVZ8p5OMcNGIEZYsVtvO9P5hyl8GM0EHQj+NqbyzH/AE3kglSLjrXbKVxuLMEqfSTmfIhhYavnzPoQIievYRVQUq74jHZnkEARoNPrvG9ScPyh3GYKANydJtPc61MZuK/objfhQKlSKtWr8HlaIHmKenCztVfsQtSqCU4YR6VdLy3oKJw+Ajb6VDyoehn1TsalVK0K8Bmtf2oocuBEQJ8qTyoehmFSpMPDUXMk1ok5QJ0inryZSdx2qXlQ9WUQJ1VYP3rqu3StGnKF6mh+ZLgcOmfGdUXqdSegGrHsKjdD1YFwyyCW9BNUXOPivD4fMiRiYg2B8Knud/IfSs38R/FjYxKYIOHhf/tr/wBRGg08I9Say/6g6D11oq+hf0XXOfibH4kBGIVP7UEAmTBMmTtaYqkL2G35FNfFHSTsf2qF+/nRYqJWcVxcUXqJZmOv+65kJ2n/AEKVhR64uOZncaVp+BxyUk2kVmkxIgZZI7CrLA4oG9yCPankRUWWaGLn6VPw/GiYNUuLxkGBNT8NxqqLgA99ayoss8Xi72pK2YTVTicSrNItVlwPEAR03oAgxuU4mI+cYhQiwtII6zNvLtVfx3LnwIZC7KCSxj1m23nWrfiV2qPOSIkRTU2hUAoWRJcg9SNvOpEZW3imKoKuufUET5yKzvCcUymHDEDYURjtYm6NLjYmWMpvSxcYqsgTp2/BQ2G4cSvpMiuO8CCPOdz2pUMkXjVc5SI2FSPw1BY+HIzIAGiRXP8AqeIqy6CN4MN7aU9b8Cy84HDOUrMHrVLjEo5B1BqzTir2OtM5jh5hniCB7xSQEvBQy3p/DIVt+RQK8SAAFjS/nXU4skyL+dAwzjuDTFUo2moO4PWsm3KGBKkXBitTg8QGEC56b1MMObkXpxk4kuKZk15O/erblfD4mHIMQbiev8VdrhiuYuECKbm3xgopFZj8GGuyieomocLlt4P2q3DKdRfSRTWwxNqWzHRFhcvAoheHApyvSOJU2wEEHSuwKYXrmegY9iBTVIoHmHN8HBBOLiIkAtBIzEDouprzP4n+Onx82HgA4eGQVJMZ3BiZ/tG0A3BM9mo2JujY/Fnxnh8NhxgsmJjMYABDBerNHsFm89jXkfNea4vEOcTGcu30A0gDRR5UJnvP1PXpUD4s6D1q1SIbbHM+9MdxM9daZmv1prtMe30/3SsKJA9u827jSo9baa1xzoZm8enXtXFffp/igBsnWdKdJAFNi87W+2tOEbzSbHR6Pyz4kwi3/eV0X+5IYR30OvQGtpwicOy50dGAscjqZOsWMzXh4xjNu0fWi+A5iyqGDFGMwwMGIvpeO01Lyt+jSSPaMfisKLrI0tAJ9jNUPOOYoAThiTa0zAmJkVgW4t2icRz08R87X/IoT/lsmjPaOsaW7VUZRYmzfcPzHSbE3irjgeKZ7KRe3zCvNOC5kZu0nudfw/errguYD5mcgxrqdgI2NhFU9WCZ6E3D4ws9h1vTxwmIqFwcyjW941m9YZ+fuSpw3IyiLmxGmWDY/wCqvuVc0/V0Yo4BDKrWYbmNwd6WrXR7FtgozqGV1XWSTcRtHWKdh4aLPiMaxMin8LhYaIXxD4RcgTYa3PXS3cU5OGRxnV1UT8pO0TOboRfTak39DoWHxIjp/FR4mG7XEeVB8Q6KfCwO9pI89NKrP+udHMDtehRb8Bs0auViYtTeKdWFt9RVGnMVeBNx1NW/L3DmAwk06rorsTMda5xHFsctybUbxSwCsr0sDbzNUXEOy6C2lJU2AZh4hG9FBhoIEj8NUuHxBawBmjTglVDE+d9KbQItuTLDN96uYqi5PxAKnr1mroONRUP0pDyY1NJmgVHifLtQv/JtG3WkBM7HMLRY3tT0xJAmoJVhYwReu4bruQDTAIdREioWqRsQBZLACNyI+tY3nnxxgYXhwv8AvP8A+JhB/wDKPF6e9NJsTaRrKxfxP8bLglsPAyu4szm6KdIAHzMPYd6wnOviTGxz43JGyKYQenXub1R4rzrt7RVUl6S5N+BnH8c+Ixd2LFjJJuT3oF8T+nb8/wA00GZAv+fbT3prCGgm0/h+lJsVDM0/mnams0R5/wCa48ep/wA01tb9/wB6AJA/zfnenHWD0n3H57VC5Og/N6c7XuZMD7D89KQCZSPCTvb13prjKYbpp53rjux9Bb3BqBz7GKLAIcREaHWmBqaz2np/r9/pXVUQJ9PYUig1cMrBsReQKWMIRTFp/IHtpSTGKrnvqJM6ydb+VSYmKuUh4YTI6g9fyNDWFsZGvEMPFGnra1SKA3zb3N+nT0qPiBHiFlMQJEzIB9LyK5gvJ0Ez5gWp/FoBYnDRBVhB1BPlpOtJUcCzW7N6TUzuchzLe1vWTp2Jpv6dvP6X09qamxUSJ+qgkQ3bU9KL4bmqaOCh/uE/tcVW4blWgm1/PSp2RcUZwcrCAe/pvVRyNeicTSJzLEIn9TOukEzY63F5udb0Vgc7KLkKWGhBvPedbGsaMN8PxKZ2JWfr2o/h+OMeIdpFj9a3jki/RU0aNOIzmQ5BtrM+flXMpkwfX82qqwsZTofQ2I96LTEYaXrZSXwQWGDh5tGObSNyf91xOKZDmF+v8fnSh8LiptoRcRrPWRUive4J8uux73p/6Fl1h/ELFIL6TIi57G/171X8RzZnImwAj9qAgU8YY8qFGKYnJsNHHGxBMqdquOD+IBAGIoO0j7kfx7VnFwY1qZMu4t2olGLGpM3PAcww20Kj2++3rVzhYlgZt9680YqR4Z7zU2BxLoZV2WBsbbbG1ZPFfhameiYnFKB1PT80oDE4wERv0FYk8xxS05/oI9afi84ZFJJC9Wn6Df0pfqaDdG0bj0wxLHxf2jXy7Vleb/GKIxyjO+4B8I7E7+lYvmHO3eQpyr21I7mqlsUAd6NUg2bLXnHPcXHM4rmBMIPlAnpv5noKpnxidPzSo2ad9aY7gb+3rUuQUOLWnWNb6/xTVnU2Ejtb17U3IZvr9Jv003NMD+RkT2B/kVLYHHeGMeX1NNZySOggV3EcbDe/1J/O9cCm/cbeVBRxwZ6zBB86c9mM23HrUTvAy/mtPxGzR5R/H2pWAjizHW9REGLa/tUid7Wjz/xXFFgOm3rP70rA62EQRJFxMA+Y/amfpkqb9KWSZJmf2qPFdlHZtP8APvRYD8uXuRH1v70su2bKRqIqFJZrAk2tR2KATBmQADr3oYFpx/KgoKZiq3ZWykmRMKYPpPlUfB8tbKM9gBmIgyO1o9TWj/TRhlIIiQDbMZ6jTpTcHEZSEKEEE37D9j+9ef8AtnrRpSM9xeBZRIi8ROgynQ6T2JpnDkMz28rCeh+1ajmnD8M6BUJXFYg5muATA8wvl13rJJglDDXIXN0g7diJ336VtCW0RNUznDvqCLXM+Q6fmlNwXsB1MDQjQ2607DACPuCbexj73qNGAW0i4EmO/wB771YjrtlxTcfKI72Ma07ExAl1EmAT5W/z9KlxOFDiTbwhlPlE6CYvNdGBqpXMsAyLanW/lMd9aakhUSpxGYW+a2ulxpbTrTc6vBvMwb/kmnYL4Q8MnWCCD5zG9qe/ChGvMA6bn6Wi5/elaQ6BlzXIIgftOntRHDcxKmATAjWu4CYf9MkKTDDpO/abaVG+AyydvK0XvVKYnEOwuYrNxHUj8tR+C03Ugis0+kwYAk9rx7eddw8cg2JEd+m9bxytEOKNZ+pG1L/kdh9ao+H5s8eLxDzv6Ufg8xRuo87VtHImQ4tFguOelSJibEe1BY3FKoGVsxOovbz29qGxOYObCFjeBf3oeSKDVl0idDXXxwvzsB+dKzeLxb7ufe1CjiZtcnvN7xSeX6Q6NDxPOEAOQFj1i381S8XxjOZY+mgHbpQTu0EwYGvpG/Xt2od3zGALf5qXNsdErY4vsL+9Ru0X/pnUa6d6SYYEEmY26gH+KhaSAdSbRttP3qWyqHO2/lH8HvXFgXIBOkdP90h4TMkHeLx3H5aKY+Kfb+Z+1SMdnvO0fsaiTbWnssEbgW9L/wA1KAVJAgWO8je094ilYEOTMQZ3/iuugkjNrMHy/muYiytmAExe35/iu4WIoUggEjQnY6+2tKwOYYXMpIkRpuRpFNdgNAYEi/rBpmUlgDsdes3/ADzqX9MKWEg6n0oYDQbCfQ/sfpTUckbSD9/81x2hTrsfQ2/f6UwGGB1B/PzzoA7gv4oNtvvSxUZlW46EdDp+1LGAzBhvr0tv7U3EZhqIvPuaAO8CkmJi/SucTjMrkHXeNKctmud51H7U/mbiVlTMb2tNosKL6B6BicvUkEu3b026VFzLBxApbDZWIJJAGVso/t18Vxrbbeliq8+BxkuNs15uSLbRpuL0crQsCdN4nW5sI2/Iry1a6zbQyH/JZmQnKJ1Egx07REWvp3o7F4NXQujB0Iy5TIOptaNCdPrVjictwsUBgYacylRCkjraJ72J66USEAXJBgamY3mbbzVynVOJOpkeO4EImZWzKwCx0Mi4gXFiI6nWoAmVVnKP6hC2NidDow/JrW8Ty1HsDc3hoIJve3c7Cg/+jsI1GWwKBWMEEWvI1m+kmtY5lVMTiUL8WBbxRbTKsNfWOwH1qLj8XwIylhsb2B6RrvtTv0CCMylQBAJmT5hZIuTHW1SpwithO2aAu/iBbYDxLvaBfXWtVSpiIeHxndjLBAQL/wBwNrTqe9PfjLkFwinr4iR5RCm+u3lUXDJAHiSBqCq5h3OYGB+wFB8UmhCmWm4EA3PpFXSbEWHB4qC+camZJkiLGIMG2oq1bE8IMWPQG8+Z89RWewcGILKw2PgJHcm49u1X3DhcuWSWA8MBx1MkGwXubVE0hoI4Z8hYEjK3/tMSQSBam8PweG7vmBCgAiLRYbdZE+ZoXHcqH0BXaAJgSSdSQROl70uD4uI/qkgaH7ne/Wop+oB2HwgbJlnK941jXax8t4qXF5awjIc0KMxhlg31zAGQRBonhPC+QHKosu5AiBcd/tR5wMREhHQgROYGbCNRM0nmp0FIoHwMUsyBTIN7iBrI+lM4nh2FmIDSLyDYkDbe8elabFxcQmSJPhupv2ifmEazQXFcKSoaIYwSIE5ryLzN52+1XH8hPjE4gnDYSKzs7KchKw0SSDNuq/zU2fCLKwdFEaASRIN/O9CYnDL+qoKTKs2VZEiLC0XkHTrTWwUGGXiCCtjO5iIJ7i/bzqnJPt+ioD5i6Hwp8qycxmWmDeehmPOgWxANAL/7rZp8MjiFYYbZGUgEPlaRe6kFennQeL8E4qXfxQLLBXN/8iCBW0Jx1DVmXDGTYydB2Nd0lf6rg/wPzapSFs2ua2vb7RQrvcN79fOndgSX1fQj3ub00OMwW0SB/NRPJ7ZdZ8x9b6VIirIgnTNO4NpHuPrQA9cOfmJN9hpcQPWnlwrXEEL9dRbauLjkKJ0Og6QQZpquGzbZ5v8AX+KQETPmkt5/5puJiA7ACdAO357UUiSP/aoO1o30vUGO6nMdpEW7zFKwGviALPqDvrpUfDkGZ6f4rmMuom147bin8vwcwcC5ymFiZNDpICP9UER2j1riAmIv4qXCYBY7xu2w799RarfD4TKMijKQ0PiNaNRAvpGwuet6JSSADygZJm7E6WA3Hf2qBgGaVAiRbvH/AJH967jnwga3aD1iL/X60OjESO32oX2AVi4ZVyNDmIPb2oqEazlQVtofvIn661FwvDNikqupIPU97b227Vcry3AEo7MMpsZCSCBswk+feolNR4/R0a3DQroAnkBBA6ganUxpepkcsuVyCJgQCDEzOxHl96Aw8dtc2UHvP0Fvaif1HuJvcQZk+SmSPOvNOhNjXw8pgNK+UDX6mk9yTr+9J3Kki06GPtofOuNLAgHKbxIt2tp9tal2DOthz2ppQrdTfvT1Ma9Benqy9aWxJHmzEB1Uk6SBPSx9frVZicqwGzFcQpnDWBzLJNyB57f5oPnRcYrMWUoAMpJjKCIjqST+22kK45CKGIKmbxBB0mZAIk9K6FGVJpkNjeJ+EiLIM9tc4EehH81Q8VwmKkqyN4NZQxfckge9b3l2OzKcxuIgRtGv52olcabTfpVRzyXJdDVM874biWykZoZdLiCBbUa6zRj8apzKHymxIuAW3AIBP2Fani+CwHJZ0UsbZhZp81IM7a1Vcb8Oh2BTEGUfMrXIt1PbY9a2WSEveCcWCYEY2HlYFWgmVMLrIiASe8iZG9B8HiCAIFjuwuDoJifajV5diYLEADKCIzLJYRMWt2trFV+HiICwyxcxJAIE2ESCB5z6aBqndCLFMSHUg6QIMyCNZsKvxlcOZBzLEe+vv9Kz2M4yF1IYTfQkW7D60VyrEGQEkaAGWAmTv63jtWOSFqxluwKAQGZnbL8w8IO89rW70HxPB4gfMGUqBCzIixjxAmGk/MAdak4XDYs+Uwc15JMG48JO0eVOxeJMwcjBWAb5gQbRp3/LVjG0/wCQIsLhSCzBiTkyhTqSGuQenbzp+GuCcwnMFuTMgmzA9zH5pTU45IRijCSZMyYkhpWcwkz7V3gXwizgEKCVC3jMMoEQehBtVtyptpiLfl3H4eGEVkYhYGZb2gAiGI11mrXn3FOgI4dEZSD4jc9TbYxsB61m8RQmVBJUkAkn99dPepML5ZVjeQTJFtNton3qo/kUvODMjw/CZSC4IVSJzCMxuIExtfypcwwjJCABR0XLbvAE9bk6V6ByzmKqxXFXDdWhVzRCiwiw6CrPmXCoiJiIqOjEWAMgRMToRbW0V0xnstkLU8aGFfXX89a5iDLI9K2vxXw6nCwnbDCYjMVOT5com0kT/b77VkuJwsxgEE/k1qpWS1REhzAg6mI7d6fmUDqbwdrVDiYuWREbEd4j96lXAH6OeTIsRFvFIn7e9DAnZ4RWm85T5ae4mgUw8zlZygSSSNOthvR+Ph4f6QIzFlMEGLkz5GNOtVySWJjUaCknadAW3G8sUYOfDDsQRJJBlSCNBpFD8r4J/wBQBvCYt8s6bSQPrU/B4mNgmMhIKklT8sEGCxGnYWmkzsHX9RSPCBdQG06CI216VncqaGSrhNhsQ+EwCtZhmAF7QP6r6wdKD4uEZ/BlJIZBJMAiZBOvnRGLxpKFbsc5YEkfL0M1WBSTBvM5bjfv0oindsGGctCMj5wNIWZJntex71E2D8mRSSTlganX+KiOGUEGAwuRuDOnt9qJRwDNxDTtqOwi0zVP7QBXA8E2EMzZxaSALgaQbWv066im81x3UqCqtbVoaRbQ+c/SrPgcacPMzLaTqcw07iV1n/Rqm4kujmCWn+0tA3j61lFtydgbCW6R2OlNxeZCSrNmN7CY+g+bt9K5jA6Cx8pjv0qsOEcJzInMbNJgzuyzlDT0gTeuSCT9NNmizXiiDMNl0BJGUXF/v7VNh41xmsDvqZEbCe/tVRw4YXDOUgkeEKNZOuhF5BF5sBeJcNyoAYqqg5iRnCjeYmWExedZGlOUBbF02JoRfSLajvaoOZYjfpM6+BgJBK2O8dp6nSpeHClFKD5jIte8nc9Z8qg4vmARgpzSRIhTceguPtWUbvwZiDxGPi5mjNIu0BRE2vYa0dwXHsyhBOdSbH5YJAPyi4133q1GICbNmgnPY6AmYAWCRpF4mhsP4eZ2R8NsgMlmzHMDJuBAj09uvbvFr+lRKi2W3JuEdVzPmJkwLjtcMAQOnlVgUnapThsoE3jcxJ7kgRPlTEadLVxyk27NK14RfplZt6Vx3iLa+48+goksRr700QRahTCxgcmxE/b/AHegeM5SjyyZ0cD5ZJU7AXNjbrRr4gUiSBJgd/wUmn8/LVcZ14HH6ZrE5e64bEK4y6+EntEDqN4pnJBmR0LAWOoBAifbTetQmIw62pzZCZKLJ3ywfcXitHl/miNSn4HFdU8QOgXT5v7SOmsevlUfG4il8geSpmWEm18trMsGIjY1eKiH+DcVRcZyZxis+GoZWIOqjL1tAqINOTb4KqCEwvEHQsUIaQOrQf7rXMWooZQ4VwmRjAI1kiQDVNx+BioQF65wCQPlAiQTNj6SaJ5pj24d82ZS4LdAdZtfLF60UbadgmXmFyRAcwUSDIkGxuDcedE8Ny8PAkrMGDFhuCQToYq5Xi0ZFKBWBkZswa3QrELe8QDUXO8b9AAoRmLAAZQo6nTsZH7b7frj6+jbvwkTk+Aiu+KoZVEsAEyx7TOlhRvAujqFLIxAzKAEUEWg5VEAydydL61mud8wGJhn5AjWgG07BiovtaheW8LiAfqfoOxAjMpiDMiFYdfvVxauoif/AKVv/wDQcd/1sIMTl8QvpIO0WiGHXTWseQWIaYMGSe0EfvWk+PsTEbEwDiBlAUxnTKQZEjXxWy3FZwoQkk2DZfUhvp9q0fCSA8QRCx4gxiBeZ+tG8BwzFHzQqtEMxI08XykeIET5Vbn9NQXGGqzBBkkkwAD4gQDfbe+9PwMPBQ5mgtY5mOYx1k6ew9axll5xDorzwahSq5sUt4py5QD5kyfOncNy12/rRBcHKfF5SP5q3wuPGZ7gZTBtMmNoEm9rEbVziMxJVSFkeFoW5ibA3m3tvWP7Z+eDohwsFUUqpaV1gsdeynWI9OlUPMGb9UyCCAIzCDpaLn71Z8JxS4ZYE4ivBLZ8sW3jafXzqp5xxDtiS2pFptY3ETqL2Na409uiY3GeNAZcQCT4RNN4dxoYtbQG0xvr1qLFYgKD5jz/AD70/DRc7BjCmJ9YP3rauCBsZ/EYYkTqdT3qy4LlpxAz5gqoxnMGjrcjbv3qCcJSSBmWLBpPUTIiTf6VzhuPYKyEkTMx/UTe4odtcAmfEQ58gIWbCdB67UzGxywWGAgdBegGxRBA3P8AFE8BhgyfL9+1PWkBvm/NbUFi8Z4cwyuiwG/+0HsAOvn0qwfEBWSItebekjesxhYJLvmcYIzQqnLJN/6RFiJiYB1rzscU7v4KbLBsXIxAYK50bNMyBBy7gddRAtepU4lc0lGZ1JVgLW7ibjQifPegeJCq5UHDAYhiFaWLEqSub+30jQQL0QjYeITiYaeO6MJsVIIBOU2ixtcQBNW4qrFZdYTEBDoYFoiPITaguP5emKysWZCLEKbH0+lutE4CmAJk72j6dqkAGp9ZrnUtXaZZUYWA85ThxGpMZW2lQCSDEanrV3w4ATwMe8nNePrUZf8AqBBGlIAEiAPLWqc9l0a4EjFte/a9RlN11rjKO9JV3BFZjbsSOdD+e1RPiZTF6KLEgAqJEybyR9qExsMxJBMe9JksKDgx7zTXEG2lA5yben+ZojDxj/FVq/RjXVi8TC9BrvTmN9bDTv5043vN65ita/uKXRDgN4pysdr+dQtMEqwP5v2qPD4g3DjLGu0nW3YUIAlzmBUoGG4Oh8rGaruJ5ZhYixDIbKpXToBlOnpG1WAcEfn3pfqKDrffT9quORx8G6Jfh7DbBzK7ApMj5gTprGhsR6a1acxTCxnVziISt1jESRPmTB9D086kKdRB9fwVE4mxHuPcAi4raP5DqmidS4TliMwGSOrFVLA9QdB7HXSg+ccfj4SHLjJiYekKcOdoEEZp8hQ2FiYiXR2G2VjnTy8UkUF8QYuNxCIkgBWzMFb5jECCNN7HsZtXRDPEUoszXN3xcTxEyuWUGywQT9ATNAhziqEVbgbbktqT5QKucHCdsMo2GzFREAEswn/x1XvO1VWG/wCgXBWHjwggkiTaZ3jerjJtP7JH8xd1UYRiQQxVZgCLSZ13PpTX4xgSVNwsQQCNrX18qFwMKTmZoDW7m4O+vp/ufmKBcVlloMRNyNAdhbWLDSmkvAJ+Fxgpdsv9Sggm1yT66R61Z8dxaqqIc3zaExAnsZO9wapeX4zIXCFReLkkm5sIFz3ofj+JZ3ZnBB0gzaLRUPHtLo7LDjuYEhmLLmuFUqCcrRDZhuI30NVWPxTuVznNGk7A1FitmIPYCuTv0raMEvBWOZ5jt+/+qJK+IWmMq/KDM6Wm9jpQovl9aNZCyggSb+VhM+3WmwDeeYyOi+ADEDEMwGWwtBHnt/qqdcGxJ12EeW9WvL8Y4TFigdT80ifDqRHnNN4fBYtL4ZysJBiYA0+Ww9qzi9VXwBSgE11T51I6wWBFwSIqKtbEeg4pdgchEyB2iPPTW1NYZjDZThQbDxTaVEDUHN+3n2lXlI0BcBMBXBXBAKgMDBLCYMZQSMwMDSj+Ew0Vf+0AUuQRcTab761ylVZE6u/oSCcNz6VMzArbvN6VKsCkNgERYdKjAIEUqVP4Acri+9SDEMUqVAHf1B0ppxL2MdjSpU6VDGMAxuNtRp/iosXh4iBI7X9+lKlUpvgiQYbA9am/Tka66/x+daVKlKTA4MCKWLhowYEHaQctwehVibG1wKVKheCIf+P4CqEzBiZN+tZnieIxcN1DjIQsS11YDplspPTaT1FdpVv+P1tMTLHhOOEE51UtAGpNgDI9TE1YJzGQYgmJW/S158qVKnPGkwRHhcxQtGYTJgN6i2lGfpiM2WCT2voCZGpuNaVKplFJr/CyPDxL+CzHQfWO9D8by5eIAOKrBwIlXNuwBt9KVKp/ZKD4JlbxXw+FUBMQkC8NmJB6grYdJy1WPyniHaWKsQIGZiLCd4BI3pUq6cOaUl0WqGnkWMCxYhZkyp8IJ66QP5oPH5TiKoYrmF5y+IDe+XQd67SrWOWX/QcUR8Py9m3idO9iR5aUxuBfKzZbKbjcd46UqVXu7IGcKgJk7WtqSdO8VZtwzK3hUshi2gg3gnp50qVObdjRYcLgo6OcIsjFcuQsCsgA9BBJHvQGDxjk/ok5ToWOxG1vYDvSpVlHraYiq4zDZXIYgnqCCD7UVwXCSsme2n70qVbN/wAoD//Z"
+          alt="Tea estate"
+          style="width: 300px; height: 300px; margin-right: 15px"
+        />
+        Jammu and Kashmir[b] is a region administered by India as a union
+        territory and consisting of the southern portion of the larger Kashmir
+        region, which has been the subject of a dispute between India and
+        Pakistan since 1947, and between India and China since 1962.[15][16] The
+        Line of Control separates Jammu and Kashmir from the
+        Pakistani-administered territories of Azad Kashmir and Gilgit-Baltistan
+        in the west and north. It lies to the north of the Indian states of
+        Himachal Pradesh and Punjab and to the west of Ladakh, which is also
+        subject to the dispute as a part of Kashmir, and administered by India
+        as a union territory.
+      </p>
+
+      <p>
+        Provisions for the formation of the union territory of Jammu and Kashmir
+        were contained within the Jammu and Kashmir Reorganisation Act, 2019,
+        which was passed by both houses of the Parliament of India in August
+        2019. The act re-constituted the former state of Jammu and Kashmir into
+        two union territories, Jammu and Kashmir and Ladakh, with effect from 31
+        October 2019
+      </p>
+
+      <p>
+        Jammu and Kashmir is home to several valleys such as the Kashmir Valley,
+        Tawi Valley, Chenab Valley, Poonch Valley, Sind Valley and Lidder
+        Valley.[30] The Kashmir valley is 100 km (62 mi) wide and 15,520.3 km2
+        (5,992.4 sq mi) in area.[31] The Himalayas divide the Kashmir valley
+        from the Tibetan plateau while the Pir Panjal range, which encloses the
+        valley from the west and the south, separates it from the Punjab Plain
+        of the Indo-Gangetic Plain.[32] Along the northeastern flank of the
+        Valley runs the main range of the Himalayas.[33] This valley has an
+        average height of 1,850 metres (6,070 ft) above sea-level,[31] but the
+        surrounding Pir Panjal range has an average elevation of 10,000 feet
+        (3,000 m).[34] The Jhelum River is the major Himalayan river which flows
+        through the Kashmir valley.[35] The Tawi, Ravi and Chenab are the other
+        important rivers flowing through the region
+      </p>
+    </div>
+  </body>
+</html>
